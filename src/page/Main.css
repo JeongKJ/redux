@@ -1,14 +1,17 @@
 h2{
     font-size: 30px;
     font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
 }
 #containerwrap{
     width: 1920px;
     margin: 0 auto;
 }
-#containerwrap ul{
+#containerwrap ul:first-of-type{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 25px;
 }
 .banner{
         background-color: #666;
@@ -17,6 +20,7 @@ h2{
         display: flex;
         justify-content: center;
         padding: 20px;
+        margin-bottom: 25px;
     }
 .banner>dl{}
 .banner>dl>dt{
@@ -29,4 +33,28 @@ h2{
     width: 200px;
     height: 200px;
 }
-
+ul:nth-of-type(2){
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+ul:nth-of-type(2)>li{
+    width: 23%;
+    overflow: hidden;
+}
+ul:nth-of-type(2)>li>a{
+    text-decoration: none;
+    color: #333;
+}
+ul:nth-of-type(2)>li>a>figure{}
+ul:nth-of-type(2)>li>a>figure>img{
+    margin-bottom: 15px;
+}
+ul:nth-of-type(2)>li>a>figure>figcaption{
+    margin-bottom: 20px;
+}
+ul:nth-of-type(2)>li>a>figure>figcaption>h3{
+    margin-bottom: 20px;
+}

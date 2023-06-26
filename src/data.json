@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "[선물과일] 진맛과 혼합 세트 2호 (사과,참외)",
+      "detail": "과일 큐레이터가 엄선한 프리미엄 제철과일",
+      "price": 90000,
+      "imageSmall": "./images/선물1.PNG",
+      "imageBig1":"./images/선물1-1.PNG",
+      "imageBig2":"./images/선물1-2.PNG",
+      "imageBig3":"./images/선물1-3.PNG",
+      "imageBig4":"./images/선물1-4.PNG",
+      "slug": "product1"
+    },
+       {
+      "id": "2",
+      "name": "[선물과일] 진맛과 과일꽃우드박스 선물세트",
+      "detail": "귀하고 좋은 것만 드리고 싶은 마음을 담았습니다.",
+      "price": 170000,
+      "imageSmall": "./images/선물2.PNG",
+      "imageBig1":"./images/선물2-1.PNG",
+      "imageBig2":"./images/선물2-2.PNG",
+      "imageBig3":"./images/선물2-3.PNG",
+      "imageBig4":"./images/선물2-4.PNG",
+      "slug": "product2"
+    },
+        {
+      "id": "3",
+      "name": "[선물과일] 진맛과 참외 세트 3호",
+      "detail": "과일 큐레이터가 엄선한 프리미엄 제철과일",
+      "price": 45000,
+      "imageSmall": "./images/참외1.PNG",
+      "imageBig1":"./images/참외1-1.PNG",
+      "imageBig2":"./images/참외1-2.PNG",
+      "imageBig3":"./images/참외1-3.PNG",
+      "imageBig4":"./images/참외1-4.PNG",
+      "slug": "product3"
+    },
+            {
+      "id": "4",
+      "name": "[선물과일] 진맛과 참외 세트 2호",
+      "detail": "과일 큐레이터가 엄선한 프리미엄 제철과일",
+      "price": 60000,
+      "imageSmall": "./images/참외2.PNG",
+      "imageBig1":"./images/참외2-1.PNG",
+      "imageBig2":"./images/참외2-2.PNG",
+      "imageBig3":"./images/참외2-3.PNG",
+      "imageBig4":"./images/참외2-4.PNG",
+      "slug": "product4"
+    },
+    {
+      "id": "4",
+      "name": "[선물과일] 진맛과 참외 세트 1호",
+      "detail": "과일 큐레이터가 엄선한 프리미엄 제철과일",
+      "price": 75000,
+      "imageSmall": "./images/참외3.PNG",
+      "imageBig1":"./images/참외3-1.PNG",
+      "imageBig2":"./images/참외3-2.PNG",
+      "imageBig3":"./images/참외3-3.PNG",
+      "imageBig4":"./images/참외3-4.PNG",
+      "slug": "product5"
+    },
+    {
+      "id": "5",
+      "name": "[선물과일] 진맛과 멜론 세트 2호",
+      "detail": "과일 큐레이터가 엄선한 프리미엄 제철과일",
+      "price": 70000,
+      "imageSmall": "./images/메론1.PNG",
+      "imageBig1":"./images/메론1-1.PNG",
+      "imageBig2":"./images/메론1-2.PNG",
+      "imageBig3":"./images/메론1-3.PNG",
+      "imageBig4":"./images/메론1-4.PNG",
+      "slug": "product6"
+    },
+        {
+      "id": "6",
+      "name": "[선물과일] 진맛과 멜론 세트 1호",
+      "detail": "과일 큐레이터가 엄선한 프리미엄 제철과일",
+      "price": 120000,
+      "imageSmall": "./images/메론2.PNG",
+      "imageBig1":"./images/메론2-1.PNG",
+      "imageBig2":"./images/메론2-2.PNG",
+      "imageBig3":"./images/메론2-3.PNG",
+      "imageBig4":"./images/메론2-4.PNG",
+      "slug": "product7"
+    },
+    {
+      "id": "7",
+      "name": "[셀틴] 블랙다이아몬드 흑마늘 진액 선물세트",
+      "detail": "소중한 마음을 담은 몸에 좋고 맛도 좋은 흑마늘 젤리",
+      "price": 60900 ,
+      "imageSmall": "./images/마늘1.PNG",
+      "imageBig1":"./images/마늘1-1.PNG",
+      "imageBig2":"./images/마늘1-2.PNG",
+      "imageBig3":"./images/마늘1-3.PNG",
+      "imageBig4":"./images/마늘1-4.PNG",
+      "slug": "product8"
+    },
+        {
+      "id": "8",
+      "name": "[남해] 셀틴 블랙다이아몬드 흑마늘 젤리 선물세트",
+      "detail": "소중한 마음을 담은 몸에 좋고 맛도 좋은 흑마늘 젤리",
+      "price": 59000 ,
+      "imageSmall": "./images/마늘2.PNG",
+      "imageBig1":"./images/마늘2-1.PNG",
+      "imageBig2":"./images/마늘2-2.PNG",
+      "imageBig3":"./images/마늘2-3.PNG",
+      "imageBig4":"./images/마늘2-4.PNG",
+      "slug": "product9"
+    },
+    {
+      "id": "9",
+      "name": "[선물과일] 진맛과 사과 세트 1호",
+      "detail": "과일 큐레이터가 엄선한 프리미엄 제철과일",
+      "price": 110000 ,
+      "imageSmall": "./images/사과1.PNG",
+      "imageBig1":"./images/사과1-1.PNG",
+      "imageBig2":"./images/사과1-2.PNG",
+      "imageBig3":"./images/사과1-3.PNG",
+      "imageBig4":"./images/사과1-4.PNG",
+      "slug": "product10"
+    },
+    {
+      "id": "10",
+      "name": "[선물과일] 진맛과 사과 세트 2호",
+      "detail": "과일 큐레이터가 엄선한 프리미엄 제철과일",
+      "price": 90000 ,
+      "imageSmall": "./images/사과2.PNG",
+      "imageBig1":"./images/사과2-1.PNG",
+      "imageBig2":"./images/사과2-2.PNG",
+      "imageBig3":"./images/사과2-3.PNG",
+      "imageBig4":"./images/사과2-4.PNG",
+      "slug": "product11"
+    },
+        {
+      "id": "11",
+      "name": "[선물과일] 진맛과 사과 세트 3호",
+      "detail": "과일 큐레이터가 엄선한 프리미엄 제철과일",
+      "price": 70000 ,
+      "imageSmall": "./images/사과3.PNG",
+      "imageBig1":"./images/사과3-1.PNG",
+      "imageBig2":"./images/사과3-2.PNG",
+      "imageBig3":"./images/사과3-3.PNG",
+      "imageBig4":"./images/사과3-4.PNG",
+      "slug": "product12"
+    }
+  ]
+}
