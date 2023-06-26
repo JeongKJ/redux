@@ -1,8 +1,12 @@
 import { useParams } from 'react-router-dom';
 import data from '../data.json'
 import './detail.css'
+import { addCart } from '../CartSlice';
+import { useDispatch, useSelector } from 'react-redux';
 
 export default function Detail() {
+    const dispatch = useDispatch();
+    const state = useSelector(state => state)
     let { slug } = useParams();
     const param = data.products.find((data) => data.slug === slug);
     return (
@@ -49,7 +53,7 @@ export default function Detail() {
                 <dfn>배송비</dfn>
                 <p>무료</p>
                 </dd>
-                <button type='button'>장바구니</button>
+                <button type='button' onClick={()=>dispatch(addCart(param.id))}>장바구니</button>
             </dl>
     </div>
         )
