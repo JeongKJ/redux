@@ -5,64 +5,71 @@ h2{
     margin-bottom: 25px;
 }
 #containerwrap{
+    position: relative;
     width: 1920px;
     margin: 0 auto;
 }
-#containerwrap ul:first-of-type{
+#containerwrap ul.product{
     display: flex;
     justify-content: space-around;
     margin-bottom: 25px;
 }
 .banner{
-        background-color: #666;
+        background-color: #cacaca;
         width: 100%;
         margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        padding: 20px;
+        padding: 20px 0;
         margin-bottom: 25px;
     }
-.banner>dl{}
-.banner>dl>dt{
-    font-size: 20px;
+.swiperwrap{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
-.banner>dl>dd{
-    font-size: 15px;
+.swiperwrap>dl{
+    margin-left: 50px;
 }
-.banner>img{
-    width: 200px;
-    height: 200px;
+.swiperwrap>dl>dt{
+    font-size: 18px;
+    margin-bottom: 50px;
 }
-#containerwrap>ul{
+.swiperwrap>dl>dd{
+    font-size: 14px;
+}
+.swiperwrap>dl>h2{
+    font-size: 30px;
+}
+
+#containerwrap>ul.product{
     display: flex;
     overflow: hidden;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
 }
-#containerwrap>ul>li{
+#containerwrap>ul.product>li{
     width: 23%;
     overflow: hidden;
 }
-#containerwrap>ul>li>a{
+#containerwrap>ul.product>li>a{
     text-decoration: none;
     color: #333;
 }
-#containerwrap>ul>li>a>figure{
+#containerwrap>ul.product>li>a>figure{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-#containerwrap>ul>li>a>figure>img{
+#containerwrap>ul.product>li>a>figure>img{
     margin-bottom: 15px;
 }
-#containerwrap>ul>li>a>figure>figcaption{
+#containerwrap>ul.product>li>a>figure>figcaption{
     margin-bottom: 20px;
 }
 #containerwrap>ul>li>a>figure>figcaption>p{
     text-align: center;
 }
-#containerwrap>ul>li>a>figure>figcaption>h3{
+#containerwrap>ul.product>li>a>figure>figcaption>h3{
     margin-bottom: 20px;
 }
 .swiper{

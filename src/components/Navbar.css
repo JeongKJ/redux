@@ -1,3 +1,7 @@
+.headerwrap{
+    width: 1920px;
+    margin-top: 50px;
+}
 .headerwrap>ul{
     position: relative;
     display: flex;

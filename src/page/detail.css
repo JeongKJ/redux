@@ -58,3 +58,6 @@ dfn{
     background-color: #603913;
     color: #fff;
 }
+.modalwrap{
+    display: none;
+}
