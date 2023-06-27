@@ -33,7 +33,7 @@ export default function Main() {
       spaceBetween={50}
       slidesPerView={1}
         onSwiper={(swiper) => console.log(swiper)}
-        autoplay={{ delay: 2000, disableOnInteraction: false }}
+        autoplay={{ delay: 4000, disableOnInteraction: false }}
     >
                     <SwiperSlide>
                         <div className='swiperwrap'>
@@ -41,7 +41,7 @@ export default function Main() {
                         <img src={img1} alt='img1'></img>
                             <dl>
                                 <h2>펀딩과일</h2>
-                        <dt>[선물과일] 진맛과 혼합 세트 2호 (사과,참외)</dt>
+                        <dt>[선물과일] 진맛과 한라봉 세트 2호</dt>
                             <dd>과일 큐레이터가 엄선한 프리미엄 제철과일</dd>
                             </dl>
                             </div>
@@ -52,7 +52,7 @@ export default function Main() {
                         <img src={img2} alt='img2'></img>
                             <dl>
                                 <h2>펀딩과일</h2>
-                        <dt>[선물과일] 진맛과 과일꽃우드박스 선물세트</dt>
+                        <dt>[선물과일] 진맛과 과일 토마토 선물세트</dt>
                             <dd>귀하고 좋은 것만 드리고 싶은 마음을 담았습니다</dd>
                             </dl>
                             </div>
@@ -63,7 +63,7 @@ export default function Main() {
                         <img src={img3} alt='img3'></img>
                             <dl>
                                 <h2>펀딩과일</h2>
-                        <dt>[선물과일] 진맛과 참외 세트 2호</dt>
+                        <dt>[선물과일] 진맛과 메론 세트 2호</dt>
                             <dd>과일 큐레이터가 엄선한 프리미엄 제철과일</dd>
                             </dl>
                             </div>
@@ -74,7 +74,7 @@ export default function Main() {
                         <img src={img4} alt='img4'></img>
                             <dl>
                                  <h2>펀딩과일</h2>
-                        <dt>[선물과일] 진맛과 참외 세트 3호</dt>
+                        <dt>[선물과일] 진맛과 복숭아 세트 3호</dt>
                             <dd>과일 큐레이터가 엄선한 프리미엄 제철과일</dd>
                         </dl>
                         </div>

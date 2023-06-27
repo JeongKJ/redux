@@ -51,3 +51,17 @@
     text-align: center;
     margin-top: 200px;
 }
+.cart{
+    position: relative;
+}
+.cart>p{
+    position: absolute;
+    top: 20px;
+    right: 300px;
+}
+.cart>p>button{
+    width: 80px;
+    background-color: #333;
+    border: none;
+    color: #fff;
+}

@@ -39,7 +39,7 @@ export default function Cart(){
                     </li>
                 )}
             </ul>
-            
+            <p><button onClick={()=>{dispatch(clearCart())}}>전체삭제</button></p>
             </div>
        </div>
     )
