@@ -19,7 +19,7 @@
 
 #### 프로젝트 계획서
 
-###### <a href="">계획서기열람하기</a>
+###### <a href="https://docs.google.com/presentation/d/1sAghO-7NNyPlmSWwQrXYe0CclkAHf0vqWkRYPjpUgA0/edit?usp=sharing">계획서기열람하기</a>
 
 #### 헤더(Header) & 푸터(Footer)
 
